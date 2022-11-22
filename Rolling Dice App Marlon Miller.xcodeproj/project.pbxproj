@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2ADDC78292C27C7008CF339 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ADDC77292C27C7008CF339 /* AppDelegate.swift */; };
+		D2ADDC7A292C27C7008CF339 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ADDC79292C27C7008CF339 /* SceneDelegate.swift */; };
+		D2ADDC7C292C27C7008CF339 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ADDC7B292C27C7008CF339 /* ViewController.swift */; };
+		D2ADDC7F292C27C7008CF339 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2ADDC7D292C27C7008CF339 /* Main.storyboard */; };
+		D2ADDC81292C27C8008CF339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2ADDC80292C27C8008CF339 /* Assets.xcassets */; };
+		D2ADDC84292C27C8008CF339 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2ADDC82292C27C8008CF339 /* LaunchScreen.storyboard */; };
+		D2ADDC8F292C27C8008CF339 /* Rolling_Dice_App_Marlon_MillerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ADDC8E292C27C8008CF339 /* Rolling_Dice_App_Marlon_MillerTests.swift */; };
+		D2ADDC99292C27C9008CF339 /* Rolling_Dice_App_Marlon_MillerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ADDC98292C27C9008CF339 /* Rolling_Dice_App_Marlon_MillerUITests.swift */; };
+		D2ADDC9B292C27C9008CF339 /* Rolling_Dice_App_Marlon_MillerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ADDC9A292C27C9008CF339 /* Rolling_Dice_App_Marlon_MillerUITestsLaunchTests.swift */; };
+		D2ADDCAB292C3E9E008CF339 /* zfanfare.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2ADDCA7292C3E9E008CF339 /* zfanfare.mp3 */; };
+		D2ADDCAC292C3E9E008CF339 /* torpedo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2ADDCA8292C3E9E008CF339 /* torpedo.mp3 */; };
+		D2ADDCAD292C3E9E008CF339 /* rolldice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2ADDCA9292C3E9E008CF339 /* rolldice.mp3 */; };
+		D2ADDCAE292C3E9E008CF339 /* failwah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2ADDCAA292C3E9E008CF339 /* failwah.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2ADDC8B292C27C8008CF339 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2ADDC6C292C27C7008CF339 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2ADDC73292C27C7008CF339;
+			remoteInfo = "Rolling Dice App Marlon Miller";
+		};
+		D2ADDC95292C27C9008CF339 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2ADDC6C292C27C7008CF339 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2ADDC73292C27C7008CF339;
+			remoteInfo = "Rolling Dice App Marlon Miller";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2ADDC74292C27C7008CF339 /* Rolling Dice App Marlon Miller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rolling Dice App Marlon Miller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2ADDC77292C27C7008CF339 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2ADDC79292C27C7008CF339 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D2ADDC7B292C27C7008CF339 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2ADDC7E292C27C7008CF339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2ADDC80292C27C8008CF339 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2ADDC83292C27C8008CF339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2ADDC85292C27C8008CF339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2ADDC8A292C27C8008CF339 /* Rolling Dice App Marlon MillerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rolling Dice App Marlon MillerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2ADDC8E292C27C8008CF339 /* Rolling_Dice_App_Marlon_MillerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rolling_Dice_App_Marlon_MillerTests.swift; sourceTree = "<group>"; };
+		D2ADDC94292C27C9008CF339 /* Rolling Dice App Marlon MillerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rolling Dice App Marlon MillerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2ADDC98292C27C9008CF339 /* Rolling_Dice_App_Marlon_MillerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rolling_Dice_App_Marlon_MillerUITests.swift; sourceTree = "<group>"; };
+		D2ADDC9A292C27C9008CF339 /* Rolling_Dice_App_Marlon_MillerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rolling_Dice_App_Marlon_MillerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D2ADDCA7292C3E9E008CF339 /* zfanfare.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zfanfare.mp3; sourceTree = "<group>"; };
+		D2ADDCA8292C3E9E008CF339 /* torpedo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = torpedo.mp3; sourceTree = "<group>"; };
+		D2ADDCA9292C3E9E008CF339 /* rolldice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rolldice.mp3; sourceTree = "<group>"; };
+		D2ADDCAA292C3E9E008CF339 /* failwah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = failwah.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2ADDC71292C27C7008CF339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2ADDC87292C27C8008CF339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2ADDC91292C27C9008CF339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2ADDC6B292C27C7008CF339 = {
+			isa = PBXGroup;
+			children = (
+				D2ADDCAA292C3E9E008CF339 /* failwah.mp3 */,
+				D2ADDCA9292C3E9E008CF339 /* rolldice.mp3 */,
+				D2ADDCA8292C3E9E008CF339 /* torpedo.mp3 */,
+				D2ADDCA7292C3E9E008CF339 /* zfanfare.mp3 */,
+				D2ADDC76292C27C7008CF339 /* Rolling Dice App Marlon Miller */,
+				D2ADDC8D292C27C8008CF339 /* Rolling Dice App Marlon MillerTests */,
+				D2ADDC97292C27C9008CF339 /* Rolling Dice App Marlon MillerUITests */,
+				D2ADDC75292C27C7008CF339 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2ADDC75292C27C7008CF339 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2ADDC74292C27C7008CF339 /* Rolling Dice App Marlon Miller.app */,
+				D2ADDC8A292C27C8008CF339 /* Rolling Dice App Marlon MillerTests.xctest */,
+				D2ADDC94292C27C9008CF339 /* Rolling Dice App Marlon MillerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2ADDC76292C27C7008CF339 /* Rolling Dice App Marlon Miller */ = {
+			isa = PBXGroup;
+			children = (
+				D2ADDC77292C27C7008CF339 /* AppDelegate.swift */,
+				D2ADDC79292C27C7008CF339 /* SceneDelegate.swift */,
+				D2ADDC7B292C27C7008CF339 /* ViewController.swift */,
+				D2ADDC7D292C27C7008CF339 /* Main.storyboard */,
+				D2ADDC80292C27C8008CF339 /* Assets.xcassets */,
+				D2ADDC82292C27C8008CF339 /* LaunchScreen.storyboard */,
+				D2ADDC85292C27C8008CF339 /* Info.plist */,
+			);
+			path = "Rolling Dice App Marlon Miller";
+			sourceTree = "<group>";
+		};
+		D2ADDC8D292C27C8008CF339 /* Rolling Dice App Marlon MillerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2ADDC8E292C27C8008CF339 /* Rolling_Dice_App_Marlon_MillerTests.swift */,
+			);
+			path = "Rolling Dice App Marlon MillerTests";
+			sourceTree = "<group>";
+		};
+		D2ADDC97292C27C9008CF339 /* Rolling Dice App Marlon MillerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2ADDC98292C27C9008CF339 /* Rolling_Dice_App_Marlon_MillerUITests.swift */,
+				D2ADDC9A292C27C9008CF339 /* Rolling_Dice_App_Marlon_MillerUITestsLaunchTests.swift */,
+			);
+			path = "Rolling Dice App Marlon MillerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2ADDC73292C27C7008CF339 /* Rolling Dice App Marlon Miller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2ADDC9E292C27C9008CF339 /* Build configuration list for PBXNativeTarget "Rolling Dice App Marlon Miller" */;
+			buildPhases = (
+				D2ADDC70292C27C7008CF339 /* Sources */,
+				D2ADDC71292C27C7008CF339 /* Frameworks */,
+				D2ADDC72292C27C7008CF339 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rolling Dice App Marlon Miller";
+			productName = "Rolling Dice App Marlon Miller";
+			productReference = D2ADDC74292C27C7008CF339 /* Rolling Dice App Marlon Miller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2ADDC89292C27C8008CF339 /* Rolling Dice App Marlon MillerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2ADDCA1292C27C9008CF339 /* Build configuration list for PBXNativeTarget "Rolling Dice App Marlon MillerTests" */;
+			buildPhases = (
+				D2ADDC86292C27C8008CF339 /* Sources */,
+				D2ADDC87292C27C8008CF339 /* Frameworks */,
+				D2ADDC88292C27C8008CF339 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2ADDC8C292C27C8008CF339 /* PBXTargetDependency */,
+			);
+			name = "Rolling Dice App Marlon MillerTests";
+			productName = "Rolling Dice App Marlon MillerTests";
+			productReference = D2ADDC8A292C27C8008CF339 /* Rolling Dice App Marlon MillerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2ADDC93292C27C9008CF339 /* Rolling Dice App Marlon MillerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2ADDCA4292C27C9008CF339 /* Build configuration list for PBXNativeTarget "Rolling Dice App Marlon MillerUITests" */;
+			buildPhases = (
+				D2ADDC90292C27C9008CF339 /* Sources */,
+				D2ADDC91292C27C9008CF339 /* Frameworks */,
+				D2ADDC92292C27C9008CF339 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2ADDC96292C27C9008CF339 /* PBXTargetDependency */,
+			);
+			name = "Rolling Dice App Marlon MillerUITests";
+			productName = "Rolling Dice App Marlon MillerUITests";
+			productReference = D2ADDC94292C27C9008CF339 /* Rolling Dice App Marlon MillerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2ADDC6C292C27C7008CF339 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					D2ADDC73292C27C7008CF339 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					D2ADDC89292C27C8008CF339 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = D2ADDC73292C27C7008CF339;
+					};
+					D2ADDC93292C27C9008CF339 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = D2ADDC73292C27C7008CF339;
+					};
+				};
+			};
+			buildConfigurationList = D2ADDC6F292C27C7008CF339 /* Build configuration list for PBXProject "Rolling Dice App Marlon Miller" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2ADDC6B292C27C7008CF339;
+			productRefGroup = D2ADDC75292C27C7008CF339 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2ADDC73292C27C7008CF339 /* Rolling Dice App Marlon Miller */,
+				D2ADDC89292C27C8008CF339 /* Rolling Dice App Marlon MillerTests */,
+				D2ADDC93292C27C9008CF339 /* Rolling Dice App Marlon MillerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2ADDC72292C27C7008CF339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2ADDCAB292C3E9E008CF339 /* zfanfare.mp3 in Resources */,
+				D2ADDCAC292C3E9E008CF339 /* torpedo.mp3 in Resources */,
+				D2ADDCAD292C3E9E008CF339 /* rolldice.mp3 in Resources */,
+				D2ADDCAE292C3E9E008CF339 /* failwah.mp3 in Resources */,
+				D2ADDC84292C27C8008CF339 /* LaunchScreen.storyboard in Resources */,
+				D2ADDC81292C27C8008CF339 /* Assets.xcassets in Resources */,
+				D2ADDC7F292C27C7008CF339 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2ADDC88292C27C8008CF339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2ADDC92292C27C9008CF339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2ADDC70292C27C7008CF339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2ADDC7C292C27C7008CF339 /* ViewController.swift in Sources */,
+				D2ADDC78292C27C7008CF339 /* AppDelegate.swift in Sources */,
+				D2ADDC7A292C27C7008CF339 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2ADDC86292C27C8008CF339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2ADDC8F292C27C8008CF339 /* Rolling_Dice_App_Marlon_MillerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2ADDC90292C27C9008CF339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2ADDC99292C27C9008CF339 /* Rolling_Dice_App_Marlon_MillerUITests.swift in Sources */,
+				D2ADDC9B292C27C9008CF339 /* Rolling_Dice_App_Marlon_MillerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2ADDC8C292C27C8008CF339 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2ADDC73292C27C7008CF339 /* Rolling Dice App Marlon Miller */;
+			targetProxy = D2ADDC8B292C27C8008CF339 /* PBXContainerItemProxy */;
+		};
+		D2ADDC96292C27C9008CF339 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2ADDC73292C27C7008CF339 /* Rolling Dice App Marlon Miller */;
+			targetProxy = D2ADDC95292C27C9008CF339 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2ADDC7D292C27C7008CF339 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2ADDC7E292C27C7008CF339 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2ADDC82292C27C8008CF339 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2ADDC83292C27C8008CF339 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2ADDC9C292C27C9008CF339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2ADDC9D292C27C9008CF339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2ADDC9F292C27C9008CF339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Rolling Dice App Marlon Miller/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Marlon-Miller.Rolling-Dice-App-Marlon-Miller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2ADDCA0292C27C9008CF339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Rolling Dice App Marlon Miller/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Marlon-Miller.Rolling-Dice-App-Marlon-Miller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2ADDCA2292C27C9008CF339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Marlon-Miller.Rolling-Dice-App-Marlon-MillerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rolling Dice App Marlon Miller.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rolling Dice App Marlon Miller";
+			};
+			name = Debug;
+		};
+		D2ADDCA3292C27C9008CF339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Marlon-Miller.Rolling-Dice-App-Marlon-MillerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rolling Dice App Marlon Miller.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rolling Dice App Marlon Miller";
+			};
+			name = Release;
+		};
+		D2ADDCA5292C27C9008CF339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Marlon-Miller.Rolling-Dice-App-Marlon-MillerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rolling Dice App Marlon Miller";
+			};
+			name = Debug;
+		};
+		D2ADDCA6292C27C9008CF339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Marlon-Miller.Rolling-Dice-App-Marlon-MillerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rolling Dice App Marlon Miller";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2ADDC6F292C27C7008CF339 /* Build configuration list for PBXProject "Rolling Dice App Marlon Miller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2ADDC9C292C27C9008CF339 /* Debug */,
+				D2ADDC9D292C27C9008CF339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2ADDC9E292C27C9008CF339 /* Build configuration list for PBXNativeTarget "Rolling Dice App Marlon Miller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2ADDC9F292C27C9008CF339 /* Debug */,
+				D2ADDCA0292C27C9008CF339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2ADDCA1292C27C9008CF339 /* Build configuration list for PBXNativeTarget "Rolling Dice App Marlon MillerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2ADDCA2292C27C9008CF339 /* Debug */,
+				D2ADDCA3292C27C9008CF339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2ADDCA4292C27C9008CF339 /* Build configuration list for PBXNativeTarget "Rolling Dice App Marlon MillerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2ADDCA5292C27C9008CF339 /* Debug */,
+				D2ADDCA6292C27C9008CF339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2ADDC6C292C27C7008CF339 /* Project object */;
+}
