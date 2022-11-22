@@ -46,12 +46,12 @@ class ViewController: UIViewController {
         
         do {
             
-            if(imageView.image == UIImage(named: "d1")) {
+            if(imageView.image == UIImage(named: "d20")) {
                 LabelDisplay.text = "Congrats! You Won"
                 audioPlayer = try AVAudioPlayer(contentsOf: urlWin)
                 audioPlayer?.play()
             }
-            else if(imageView.image == UIImage(named:"d20")) {
+            else if(imageView.image == UIImage(named:"d1")) {
                 LabelDisplay.text = "You Lost!"
                 audioPlayer = try AVAudioPlayer(contentsOf: urlLose)
                 audioPlayer?.play()
